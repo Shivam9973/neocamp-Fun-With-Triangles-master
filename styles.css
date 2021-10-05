@@ -111,7 +111,7 @@ body {
 }
 
 #submit-ans-btn {
-    bo font-size: xx-large;
+    font-size: xx-large;
     color: var(--colore-1b);
     background-color: var(--color-1a);
     border-bottom: inherit;
