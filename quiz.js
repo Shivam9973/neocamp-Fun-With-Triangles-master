@@ -14,12 +14,11 @@ function calculateScore(event) {
         if (value === correctAnswers[index]) {
             score = score + 1
         }
-        
+
         index = index + 1
     }
 
     outPut.textContent = "Your score is  " + score
 }
 
-submitAnswerBtn.addEventListener("click", calculateScore);
-
+submitAnswerBtn.addEventListener("click", +calculateScore);
